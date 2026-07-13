@@ -1,0 +1,13 @@
+
+# Ignore log files
+*.log
+
+# Ignore root .env file
+.env
+
+# Ignore .env files in immediate subfolders
+*/.env
+
+# Ignore .env files in any nested folder (all levels)
+**/.env
+
